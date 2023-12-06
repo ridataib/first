@@ -1,0 +1,161 @@
+body {
+    font-family: Rubik;
+}
+
+#head {
+    margin-top: 50px;
+}
+
+
+.center {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {}
+
+.sections {
+    display: flex;
+    gap: 40px;
+}
+
+.sections,
+a {
+    color: #4F5665;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: color 0.3s ease-in-out
+}
+
+.sections,
+a:hover {
+    color: #F53838;
+}
+
+.sign-container {}
+
+.sign {
+    width: 150px;
+    height: 45px;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #fff;
+    box-shadow: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out
+}
+
+.in {
+    border: none;
+}
+
+.in:hover {
+    border: 1px solid #0B132A;
+}
+
+.up {
+    border: 1px solid #F53855;
+    color: #F53855;
+}
+
+.up:hover {
+    color: #fff;
+    background-color: #F53855;
+}
+
+a {
+    text-decoration: none;
+}
+
+.txt {
+    display: block;
+}
+
+.all {
+    display: flex;
+}
+
+#Want {
+    width: 555px;
+    color: #0B132A;
+
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    /* 140% */
+    margin-bottom: 20px;
+}
+
+#provide {
+    color: #4F5665;
+
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+}
+
+#GetStarted {
+    width: 250px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F53838;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    /* 156.25% */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out
+   
+}
+#GetStarted:hover {
+    background: #FFF;
+    color: #F53838;
+    border: 1px solid #F53855
+
+}
+.center {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.first {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+
+.second {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
